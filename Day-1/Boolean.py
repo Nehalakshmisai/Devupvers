@@ -1,0 +1,7 @@
+x = int(input("Enter value for x: "))
+y = int(input("Enter value for y: "))
+print("x > y:", x > y)
+print("x < y:", x < y)
+print("x == 4 AND y == 12:", x == 4 and y == 12)
+print("x == 4 OR y == 12:", x == 10 or y == 20)
+print("NOT (x == y):", not (x == y))

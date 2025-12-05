@@ -1,0 +1,10 @@
+firstName = input("Enter first name: ")
+lastName  = input("Enter last name: ")
+fullName = firstName + " " + lastName
+print("Full Name:", fullName)
+print("Length of name:", len(fullName))
+print("Uppercase:", toUpperCase(fullName))
+print("Lowercase:", toLowerCase(fullName))
+print("Substring (0,5):", fullName[0:5])
+print("Includes 'Hello':", "Hello" in fullName)
+print("Replace:", fullName.replace("World", "Python"))
