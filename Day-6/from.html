@@ -29,28 +29,24 @@
     </form>
 
     <script>
-        // Select the form using DOM
         const form = document.getElementById('userForm');
 
-        // Add event listener for form submission
         form.addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent page reload
 
-            // Get input values
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const gender = document.querySelector('input[name="gender"]:checked')?.value;
 
-            // Log values to console
             console.log("Form Submitted!");
             console.log("Name:", name);
             console.log("Email:", email);
             console.log("Gender:", gender);
 
-            // Optional: clear form after submit
             form.reset();
         });
     </script>
 </body>
+
 
 </html>
